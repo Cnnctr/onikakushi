@@ -355,7 +355,8 @@ void main()
 	FadeOutBGM( 2, 1000, TRUE );
 	PlayBGM( 2, "lsys22", 128, 0 );
 	DisableWindow();
-	DrawSceneWithMask( "bg_119", "down", 0, 0, 3000 );
+	DrawSceneWithMask( "bg_067", "down", 0, 0, 3000 );
+	DrawBustshotWithFiltering( 2, "re_se_de_a1", "m1", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「圭一く～ん＠　おっはよ～ぅ！＠
 	PlaySE(3, "s19/02/990200001", 256, 64);
@@ -368,7 +369,6 @@ void main()
 
 
 	PlayBGM( 1, "msysRe", 128, 0 );
-	DrawBustshotWithFiltering( 2, "re_se_de_a1", "m1", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //　朝の爽やかさをそのままにした快活な挨拶が響いてきた＠
 	OutputLine(NULL, "　朝の爽やかさをそのままにした快活な挨拶が響いてきた。",
@@ -2184,7 +2184,7 @@ void main()
 	ClearMessage();
 	DisableWindow();
 	DrawScene( "bg_109", 400 );
-	DrawBustshotWithFiltering( 3, "me_se_wi_a2", "m1", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	DrawBustshot( 1, "re_se_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 400, TRUE );
 
 //「あははは、間に合ったね！＠
 	PlaySE(3, "s19/03/990300034", 256, 64);
@@ -2774,10 +2774,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-
-//	DrawSceneWithMask( "bg_109", "m1", 0, 0, 1300 );
-	DrawSceneWithMask( "07", "m1", 0, 0, 1300 );
-
+	DrawSceneWithMask( "bg_109", "m1", 0, 0, 1300 );
 
 //　しかし、自分以外が全て女の子というグループ構成にもすっかり慣れたな＠
 	OutputLine(NULL, "　しかし、自分以外が全て女の子というグループ構成にもすっかり慣れたな。",
@@ -2828,7 +2825,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-//	DrawBustshot( 3, "sa_se_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );	DrawBustshot( 3, "sa_se_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	DrawBustshot( 3, "sa_se_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 
 //「あらあら、圭一さんのお弁当は今日は大奮発ではございませんことぉ？＠
 	PlaySE(3, "s19/04/990400018", 256, 64);
@@ -2881,9 +2878,9 @@ void main()
 
 
 
-//	DisableWindow();
-//	FadeBustshotWithFiltering( 3, "m1", 1, FALSE, 0, 0, 300, TRUE );
-//	DrawBustshot( 2, "ri_se_ni_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	DisableWindow();
+	FadeBustshotWithFiltering( 3, "m1", 1, FALSE, 0, 0, 300, TRUE );
+	DrawBustshot( 2, "ri_se_ni_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「...昨夜のお夕食の煮物を少し取っておきましたですよ。￥
 	PlaySE(3, "s19/05/990500012", 256, 64);
@@ -2934,9 +2931,9 @@ void main()
 		   NULL, "That's not easy to do.", Line_Normal);
 	ClearMessage();
 
-//	DisableWindow();
-//	DrawSceneWithMask( "bg_108", "left", 0, 0, 300 );
-//	DrawBustshot( 3, "me_se_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DisableWindow();
+	DrawSceneWithMask( "bg_108", "left", 0, 0, 300 );
+	DrawBustshot( 3, "me_se_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「梨花ちゃんって何気にそーゆうの得意なんだよなぁ。＠
 	PlaySE(3, "s19/03/990300051", 256, 64);
@@ -2945,8 +2942,8 @@ void main()
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
-//	DisableWindow();
-//	DrawBustshotWithFiltering( 1, "re_se_wa_b1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	DisableWindow();
+	DrawBustshotWithFiltering( 1, "re_se_wa_b1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「お裁縫とかお洗濯とかも上手なの＠すごいよね＠すごいよね！＠
 	PlaySE(3, "s19/02/990200046", 256, 64);
@@ -2961,9 +2958,9 @@ void main()
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
-//	DisableWindow();
-//	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 200, TRUE );
-//	DrawBustshot( 3, "sa_se_aw_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	DisableWindow();
+	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 3, "sa_se_aw_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 
 //「梨花はいろいろとすごいんですのよ＠をーっほっほっほ！＠
 	PlaySE(3, "s19/04/990400020", 256, 64);
@@ -2983,9 +2980,9 @@ void main()
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
-//	DisableWindow();
-//	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 1000, TRUE );
-//	DrawBustshot( 1, "ri_se_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 400, TRUE );
+	DisableWindow();
+	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 1000, TRUE );
+	DrawBustshot( 1, "ri_se_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 400, TRUE );
 
 //「...ボクより、レナの方がお料理は上手です。＠
 	PlaySE(3, "s19/05/990500013", 256, 64);
@@ -2994,9 +2991,9 @@ void main()
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
-//	DisableWindow();
-//	DrawSceneWithMask( "bg_108", "m1", 0, 0, 300 );
-//	DrawBustshotWithFiltering( 2, "re_se_bi_a1", "m1", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	DisableWindow();
+	DrawSceneWithMask( "bg_108", "m1", 0, 0, 300 );
+	DrawBustshotWithFiltering( 2, "re_se_bi_a1", "m1", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 
 //「......え、!w800あ、!w800...その......ね☆＠
@@ -3043,9 +3040,9 @@ void main()
 //　みんなもレナの弁当箱には進んで箸を伸ばす￥
 	OutputLine(NULL, "　みんなもレナの弁当箱には進んで箸を伸ばす。",
 		   NULL, "Everyone else pulled from Rena's lunch box constantly.", Line_Normal);
-//	ClearMessage();
-//	DisableWindow();
-//	DrawBustshot( 2, "re_se_ha_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ClearMessage();
+	DisableWindow();
+	DrawBustshot( 2, "re_se_ha_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「これ、前に評判良かったからいっぱい作ってみたの＠...おいしいかな？!d800...かな？＠
 	PlaySE(3, "s19/02/990200050", 256, 64);
@@ -3437,32 +3434,16 @@ void main()
 
 	DisableWindow();
 	PlaySE( 4, "wa_008", 128, 64 );
-
 	DrawScene( "black", 100 );
-
 	PlaySE( 4, "wa_005", 128, 64 );
-	DrawBustshot( 5, "01_a", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
+	DrawBustshot( 5, "Furiker_a", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
 
 
 	DrawScene( "black", 100 );
-
 	PlaySE( 4, "wa_005", 128, 64 );
-	DrawBustshot( 5, "01_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
+	DrawBustshot( 5, "Furiker_b", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
 
-	PlaySE( 4, "wa_005", 128, 64 );
-	DrawBustshot( 5, "01_b2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
-
-	PlaySE( 4, "wa_005", 128, 64 );
-	DrawBustshot( 5, "01_b3", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
-
-	PlaySE( 4, "wa_005", 128, 64 );
-	DrawBustshot( 5, "01_b4", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
-
-	PlaySE( 4, "wa_005", 128, 64 );
-	DrawBustshot( 5, "01_b", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
-
-
-//	DrawScene( "black", 100 );
+	DrawScene( "black", 100 );
 
 
 //　すぱぱーん！＠

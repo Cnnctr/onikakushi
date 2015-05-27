@@ -2920,7 +2920,7 @@
 		   NULL, "I cringed in fear. The only other thing I could do was increase my pace.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawSceneWithMask( "bg_044", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_045", "left", 0, 0, 300 );
 
 //「お話しようよ圭一くん＠.........お話!w800お話。......!s200あはははははははははははははは!sd。＠
 	PlaySE(3, "s01/02/120200368", 256, 64);

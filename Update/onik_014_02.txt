@@ -2822,7 +2822,7 @@ void main()
 	FadeOutBGM( 1, 1000, TRUE );
 	PlayBGM( 2, "lsys13", 128, 0 );
 	DrawSceneWithMask( "bg_118", "right", 0, 0, 1300 );
-	DrawBustshot( 2, "night/re_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 1000, TRUE );
+	DrawBustshot( 2, "re_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 1000, TRUE );
 
 //「...こんばんは。＠
 	PlaySE(3, "s01/02/120200259", 256, 64);
@@ -2882,7 +2882,7 @@ void main()
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "bg_118", "down", 0, 0, 1300 );
-	DrawBustshot( 2, "night/re_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 1000, TRUE );
+	DrawBustshot( 2, "re_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 1000, TRUE );
 
 //「レ、...レナひとり...？＠
 	PlaySE(3, "s01/01/120100525", 256, 64);
@@ -2916,7 +2916,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_na_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_na_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「.........ねぇ圭一くん、ちゃんとドアを開けてお話したいな...＠レナは玄関に入っちゃ、だめなのかな？　...かな？＠
 	PlaySE(3, "s01/02/120200261", 256, 64);
@@ -2947,7 +2947,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_ko_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_ko_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「!s100........................!sdなら、...仕方ないかな。＠
 
@@ -3003,7 +3003,7 @@ void main()
 		   NULL, "Since it didn't seem like I'd remove the chain from her silent urging, she appeared to give up on trying to get into the entranceway.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「......あのさ、圭一くん、...ご飯食べた？＠
 	PlaySE(3, "s01/02/120200264", 256, 64);
@@ -3047,7 +3047,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_wa_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_wa_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「あ、あははは、じゃあ良かった＠　これ見て＠お惣菜とか持ってきてあげたの。＠
 	PlaySE(3, "s01/02/120200265", 256, 64);
@@ -3406,7 +3406,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_ha_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_ha_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「え...＠　...そうなの＠　そうなの？＠
 	PlaySE(3, "s01/02/120200275", 256, 64);
@@ -3457,7 +3457,7 @@ void main()
 		   NULL, " So...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_na_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_na_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「え...？　おかず、あるの？￥
 	PlaySE(3, "s01/02/120200279", 256, 64);
@@ -3495,7 +3495,7 @@ void main()
 		   NULL, "And that... I was aware of it as well.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「圭一くんもおかずとか作れるんだね＠...何を作ったのかな？＠
 	PlaySE(3, "s01/02/120200280", 256, 64);
@@ -3527,7 +3527,7 @@ void main()
 		   NULL, "No... not so much that I'd made them... but rather that my mom hadn't.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_ko_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_ko_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「......本当に作ったの＠　おかず＠...圭一くんが？＠
 	PlaySE(3, "s01/02/120200282", 256, 64);
@@ -3580,7 +3580,7 @@ void main()
 		   NULL, " At that moment... I felt that the light had suddenly disappeared from her eyes.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 2, "night/re_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「.........圭一くんのお夕飯、当ててみようか。＠
 	PlaySE(3, "s01/02/120200286", 256, 64);
@@ -3783,7 +3783,7 @@ void main()
 	ClearMessage();
 	DisableWindow();
 	PlayBGM( 1, "msys08", 128, 0 );
-	DrawBustshot( 2, "night/re_si_him_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_him_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「.........どうして？＠
 	PlaySE(3, "s01/02/120200293", 256, 64);
@@ -3853,7 +3853,7 @@ void main()
 
 
 	DisableWindow();
-//	DrawBustshot( 2, "re_si_hii_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_hii_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「嘘だよッ！！！！＠
 	PlaySE(3, "s01/02/120200296", 256, 64);
@@ -3867,7 +3867,7 @@ void main()
 		   NULL, "Rena's outburst sent a jolt surging through my body...!!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-//	DrawBustshot( 2, "re_si_him_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_him_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //　チェーン越しに守られ、レナとの接点は扉の隙間のわずか１０数センチ＠
 	OutputLine(NULL, "　チェーン越しに守られ、レナとの接点は扉の隙間のわずか１０数センチ。",
@@ -4127,8 +4127,8 @@ void main()
 	OutputLine(NULL, "　あまりに呆気ない回答だからこそ、……俺はその意味するところが理解できずにいたのだ。",
 		   NULL, "It was such a simple answer... That was why I wasn't able to comprehend it.", Line_Normal);
 	ClearMessage();
-//	DisableWindow();
-//	DrawBustshot( 5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 100, TRUE );
+	DisableWindow();
+	DrawBustshot( 5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 100, TRUE );
 
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
@@ -4140,8 +4140,8 @@ void main()
 		   NULL, "\"...Pork-bone & Ginger flavor.\"", Line_Normal);
 	ClearMessage();
 
-//	DisableWindow();
-//	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 400, TRUE );
+	DisableWindow();
+	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 400, TRUE );
 
 	PlayBGM( 2, "lsys15", 128, 0 );
 //　頭の中の真っ白な空白が回復するまで、俺はどんな様子だったんだろう...＠
@@ -4205,7 +4205,7 @@ void main()
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 	DisableWindow();
-//	DrawBustshot( 2, "re_si_hi_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_hi_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「......なんでかなぁ＠　不思議だね＠だね？＠
 	PlaySE(3, "s01/02/120200305", 256, 64);
@@ -4422,8 +4422,8 @@ void main()
 		   NULL, " And as I withdrew... Rena advanced.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-//	DrawBustshot( 5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 1000, TRUE );
-//	DrawBustshot( 2, "re_si_hi_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 1000, TRUE );
+	DrawBustshot( 2, "re_si_hi_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	StopSE( 3 );
 
@@ -4441,9 +4441,6 @@ void main()
 	OutputLine(NULL, "　きっとおいしいから、……………ね…？」",
 		   NULL, " I'm sure it's going to be delicious, so... okay...?\"", Line_Normal);
 	ClearMessage();
-
-	DrawSceneWithMask( "25_b", "right", 0, 0, 300 );
-
 
 //　レナの白すぎる細すぎる指が何本も、一本一本が生きているかのように、扉の隙間からするすると入り込み、チェーンをかちゃかちゃと言わせる...＠
 	OutputLine(NULL, "　レナの白すぎる細すぎる指が何本も、一本一本が生きているかのように、扉の隙間からするすると入り込み、チェーンをかちゃかちゃと言わせる…。",
@@ -6034,7 +6031,6 @@ void main()
 	ClearMessage();
 	DisableWindow();
 	DrawBustshotWithFiltering( 5, "black", "right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
-	DrawSceneWithMask( "rain/bg_117", "right", 0, 0, 300 );
 
 //　門の郵便受けのところにある外灯に、ずっとひとりの人影が立ち尽くしていた＠
 	OutputLine(NULL, "　門の郵便受けのところにある外灯に、ずっとひとりの人影が立ち尽くしていた。",
@@ -6051,9 +6047,8 @@ void main()
 		   NULL, " In this shower which more resembled that of a waterfall... droplets of water dripped down from her hair...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-//	DrawFilm( 2,  34, 34, 255, 255, 0, 0, FALSE );
-	DrawSceneWithMask( "03", "right", 0, 0, 300 );
-//	DrawBustshotWithFiltering( 2, "re_si_him_a1", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	DrawFilm( 2,  34, 34, 255, 255, 0, 0, FALSE );
+	DrawBustshotWithFiltering( 2, "re_si_him_a1", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 //print 1
 
 //　それは両手をだらりとさせ、ただ、立ち尽くしているという表現が似合っていた＠

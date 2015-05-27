@@ -3150,7 +3150,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "bg_044", "right", 0, 0, 1300 );
+	DrawSceneWithMask( "bg_045", "right", 0, 0, 1300 );
 	PlayBGM( 2, "lsys19", 128, 0 );
 
 //　ひょっとすると富竹さんがいるかもしれない＠
@@ -4221,9 +4221,7 @@ void main()
 		   NULL, " ...With... an axe.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-
-	PlaySE( 4, "wa_027", 128, 64 );
-	DrawScene( "04_c", 200 );
+	DrawScene( "white", 200 );
 
 //nega 0
 	FadeFilm( 0, TRUE );
@@ -4241,9 +4239,8 @@ void main()
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	DisableWindow();
+	DrawBustshot( 2, "re_si_bi_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask( "bg_023", "mask1013", 1, 0, 300 );
-	DrawBustshot( 2, "re_se_bi_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
-
 
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
@@ -4265,7 +4262,7 @@ void main()
 
 	PlayBGM( 1, "msys11", 128, 0 );
 	DisableWindow();
-	DrawBustshot( 2, "re_se_ko_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_ko_a2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「圭一くんね、さっきほら、斧とかがあると便利だって言ったじゃない？＠　そ、それでねレナ、物置からちゃんと斧、持ってきたんだよ…！！＠
 	PlaySE(3, "s19/02/990200222", 256, 64);
@@ -4299,7 +4296,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 2, "re_se_na_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_na_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「う、うぅん、…こ、こっちこそごめんね！…ごめんね！￥
 	PlaySE(3, "s19/02/990200224", 256, 64);
@@ -4353,7 +4350,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 2, "re_se_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_si_wa_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「そうだよね。…あははは＠　早くケンタくんをお持ち帰りしたい～！￥
 	PlaySE(3, "s19/02/990200226", 256, 64);

@@ -2465,8 +2465,8 @@ void main()
 		   NULL, "But as soon as the sun began to set, the end of the day really did come quickly.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawScene( "sunset/bg_039", 3000 );
-	DrawBustshot( 1, "sunset/me_si_wi_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 400, TRUE );
+	DrawScene( "bg_039", 3000 );
+	DrawBustshot( 1, "me_si_wi_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 400, TRUE );
 
 //「じゃあね、レナに圭ちゃん！　また明日ね～！＠
 	PlaySE(3, "s19/03/990300129", 256, 64);
@@ -2484,7 +2484,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "sunset/re_si_de_b1", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	DrawBustshotWithFiltering( 3, "re_si_de_b1", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「また明日ね～！！＠
 	PlaySE(3, "s19/02/990200133", 256, 64);
@@ -2498,8 +2498,8 @@ void main()
 		   NULL, "Satoko and Rika-chan went home as well. We parted ways with Mion, and it ended with just Rena and myself enjoying the evening air on our way home.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawSceneWithMask( "sunset/bg_041", "right", 0, 0, 1300 );
-	DrawBustshotWithFiltering( 2, "sunset/re_si_de_a1", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	DrawSceneWithMask( "bg_041", "right", 0, 0, 1300 );
+	DrawBustshotWithFiltering( 2, "re_si_de_a1", "left", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 
 //「…圭一くんも今日は付き合ってくれてありがとう＠…楽しかった？＠
@@ -2576,7 +2576,7 @@ void main()
 	DisableWindow();
 	DrawScene( "black", 1000 );
 	PlayBGM( 2, "lsys19", 128, 0 );
-	DrawScene( "sunset/bg_141", 1000 );
+	DrawScene( "bg_141", 1000 );
 
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
 	SetValidityOfInput( FALSE );
@@ -2586,8 +2586,18 @@ void main()
 	DisableWindow();
 	DrawScene( "black", 1000 );
 
-	DrawScene( "sunset/bg_004", 200 );
+	DrawScene( "bg_029", 1000 );
 	Wait( 1000 );
+	DrawScene( "bg_032", 1000 );
+	Wait( 1000 );
+
+	DrawScene( "white", 400 );
+
+	DrawScene( "bg_001", 200 );
+	Wait( 1000 );
+	DrawScene( "bg_006", 1000 );
+	Wait( 1000 );
+
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
 //!sd
 
@@ -2606,14 +2616,14 @@ void main()
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
 
 	DisableWindow();
-//	DrawScene( "sunset/bg_004", 1000 );
-//	Wait( 1000 );
+	DrawScene( "bg_003", 1000 );
+	Wait( 1000 );
 
 	FadeOutBGM( 2, 1000, TRUE );
 
-	DrawScene( "sunset/bg_024", 1000 );
+	DrawScene( "bg_024", 1000 );
 	Wait( 1000 );
-	DrawScene( "sunset/bg_023", 400 );
+	DrawScene( "bg_023", 400 );
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,639,479
 //!sd
 
@@ -2629,7 +2639,7 @@ void main()
 		   NULL, "Probably illegal dumping. I recalled it being in the newspaper.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "sunset/re_si_wa_a1", "m1", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
+	DrawBustshotWithFiltering( 3, "re_si_wa_a1", "m1", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
 
 //「うっふふ＠　今日は久しぶりだからぁ～、何があるかな何があるかな…！＠
 	PlaySE(3, "s19/02/990200139", 256, 64);
@@ -2651,7 +2661,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 3, "sunset/re_si_ka_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "re_si_ka_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「ゴ、ゴミじゃないよ＠…レナにとっては宝の山だもん…。￥
 	PlaySE(3, "s19/02/990200141", 256, 64);
@@ -2798,8 +2808,8 @@ void main()
 	ClearMessage();
 	DisableWindow();
 	DrawBustshotWithFiltering( 5, "black", "left", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 300, TRUE );
-	DrawBustshot( 1, "sunset/tm_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
-	DrawBG( "sunset/bg_024", 0, TRUE );
+	DrawBustshot( 1, "tm_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	DrawBG( "bg_024", 0, TRUE );
 	FadeBustshotWithFiltering( 5, "left", 0, FALSE, 0, 0, 300, TRUE );
 
 //　そこにはいかにもカメラマン風体の男が、俺に向けてカメラを覗いていた＠
@@ -2821,7 +2831,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 1, "sunset/tm_si_ko_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "tm_si_ko_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「お、おぉっと＠…びっくりした！＠
 	PlaySE(3, "s19/08/990800001", 256, 64);
@@ -2855,7 +2865,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 1, "sunset/tm_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "tm_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「ごめんごめん＠驚かすつもりはなかったんだ。君は雛見沢の人かい？＠
 	PlaySE(3, "s19/08/990800003", 256, 64);
@@ -2879,7 +2889,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 1, "sunset/tm_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "tm_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「僕は富竹＠フリーのカメラマンさ＠雛見沢にはたまに来るんだ。＠
 	PlaySE(3, "s19/08/990800005", 256, 64);
@@ -2907,7 +2917,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 1, "sunset/tm_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "tm_si_wa_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「ごめんごめん＠メインは野鳥の撮影でね＠断った試しがないんだよ＠あっははは！＠
 	PlaySE(3, "s19/08/990800008", 256, 64);
@@ -3024,7 +3034,7 @@ void main()
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawBustshot( 1, "sunset/tm_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	DrawBustshot( 1, "tm_si_de_a1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「……嫌な事件だったね。…腕が一本、まだ見つかってないんだろ？」!w5000
 	PlaySE(3, "s19/08/990800016", 256, 64);
@@ -3039,7 +3049,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "sunset/re_si_de_a1", "m1", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
+	DrawBustshotWithFiltering( 3, "re_si_de_a1", "m1", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
 
 //「ははは！　圭一くんお待たせ～＠待ったかな？!d300……かな？＠
 	PlaySE(3, "s19/02/990200150", 256, 64);
@@ -3082,7 +3092,7 @@ void main()
 		   NULL, "Missing my chance to retort put me off a bit.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawBustshot( 3, "sunset/re_si_na_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "re_si_na_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「…圭一くん、怒ってる＠　……どうしてだろ!d200……だろ？＠
 	PlaySE(3, "s19/02/990200152", 256, 64);
@@ -3106,7 +3116,7 @@ void main()
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "sunset/bg_042", "right", 0, 0, 1300 );
+	DrawSceneWithMask( "bg_042", "right", 0, 0, 1300 );
 	FadeOutBGM( 2, 1000, TRUE );
 	PlayBGM( 1, "msys05", 128, 0 );
 //「どうだった＠　掘り出し物は見つかったか？＠
@@ -3120,7 +3130,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 3, "sunset/re_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "re_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「うん聞いて聞いて＠　あ、…あのね＠　あったの＠　ケンタくん人形ッ♪！！＠
 	PlaySE(3, "s19/02/990200154", 256, 64);
@@ -3182,7 +3192,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 3, "sunset/re_si_na_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "re_si_na_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「他の山の下敷きになってるの＠…簡単には掘り出せないし…＠あそこ、灯りがないからすぐ暗くなっちゃうし…。＠
 	PlaySE(3, "s19/02/990200160", 256, 64);
@@ -3214,7 +3224,7 @@ void main()
 
 
 	DisableWindow();
-	DrawBustshot( 3, "sunset/re_si_ha_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 1300, TRUE );
+	DrawBustshot( 3, "re_si_ha_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 1300, TRUE );
 //「…はぅ……あ、…ありがとう……。＠
 	PlaySE(3, "s19/02/990200163", 256, 64);
 	OutputLine(NULL, "「…はぅ……あ、…ありがとう……。」",
@@ -3285,7 +3295,7 @@ void main()
 
 	FadeOutBGM( 1, 1000, TRUE );
 	DisableWindow();
-	DrawBustshot( 3, "sunset/re_si_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "re_si_de_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
@@ -3323,7 +3333,7 @@ void main()
 
 	PlayBGM( 1, "msys11", 128, 0 );
 	DisableWindow();
-	DrawBustshot( 3, "sunset/re_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "re_si_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「実はね、去年までよそに住んでたの。＠
 	PlaySE(3, "s19/02/990200168", 256, 64);
@@ -3363,7 +3373,7 @@ void main()
 		   NULL, "Don't really know; don't want to talk about it.' That was the kind of feeling she gave me.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	DrawSceneWithMask( "sunset/bg_038", "left", 0, 0, 300 );
+	DrawSceneWithMask( "bg_038", "left", 0, 0, 300 );
 
 //　考えてみれば当然だった＠女の子にとって楽しい話題のわけがない＠
 	OutputLine(NULL, "　考えてみれば当然だった。",

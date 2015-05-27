@@ -2433,9 +2433,9 @@
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
+
 	DisableWindow();
-	DrawSceneWithMask( "saiguden", "m1", 0, 0, 1300 );
-	DrawBustshotWithFiltering( 2, "night/re_ta_bi_b1", "down", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 1300, TRUE );
+	DrawBustshotWithFiltering( 2, "re_ta_bi_b1", "down", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 1300, TRUE );
 
 //「こ、怖いよみんな！＠　圭一くんまで…！＠　怖いよぅ！！！＠
 	PlaySE(3, "s19/02/990200253", 256, 64);
@@ -2496,7 +2496,7 @@
 
 	DisableWindow();
 	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 200, TRUE );
-	DrawBustshotWithFiltering( 3, "night/sa_ta_aw_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
+	DrawBustshotWithFiltering( 3, "sa_ta_aw_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
 
 //「大人しく…食い尽くされるでございますの～…！！！＠
 	PlaySE(3, "s19/04/990400109", 256, 64);
@@ -2507,7 +2507,7 @@
 
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 1, "night/ri_ta_wa_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
+	DrawBustshotWithFiltering( 1, "ri_ta_wa_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
 
 //「…みんなで…仲良しですよ。＠
 	PlaySE(3, "s19/05/990500055", 256, 64);
@@ -2518,7 +2518,7 @@
 
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 2, "night/me_ta_aw_a2", "up", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 1300, TRUE );
+	DrawBustshotWithFiltering( 2, "me_ta_aw_a2", "up", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 1300, TRUE );
 
 //「さぁレナ…念仏でも唱えな！＠　うひゃっひゃっひゃッ！！！！！￥
 	PlaySE(3, "s19/03/990300252", 256, 64);
@@ -2563,8 +2563,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawSceneWithMask( "saiguden", "m1", 0, 0, 1300 );
-	DrawBustshotWithFiltering( 2, "night/re_ta_bi_a1", "m1", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 1300, TRUE );
+	DrawBustshotWithFiltering( 2, "re_ta_bi_a1", "m1", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 1300, TRUE );
 
 //「……け……圭一くんは……みんなみたいなひどいこと…しないよね？!d500…しないよね？＠
 	PlaySE(3, "s19/02/990200259", 256, 64);
@@ -2588,7 +2587,7 @@
 
 
 	DisableWindow();
-	DrawBustshot( 2, "night/re_ta_na_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_ta_na_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……ぅ…ぁ、………はぅ……………、＠
 	PlaySE(3, "s19/02/990200260", 256, 64);
@@ -2605,7 +2604,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 2, "night/re_ta_ha_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_ta_ha_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「……いいよ…圭一くんなら……。＠
 	PlaySE(3, "s19/02/990200261", 256, 64);
@@ -2654,7 +2653,7 @@
 
 	DisableWindow();
 	PlayBGM( 1, "msys01", 128, 0 );
-	DrawBustshot( 2, "night/re_ta_wa_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	DrawBustshot( 2, "re_ta_wa_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「きゃ～～～！＠　やったやった！＠　生き残ったよ＠　わぁいわ～～い☆！！＠
 	PlaySE(3, "s19/02/990200263", 256, 64);
@@ -2693,7 +2692,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 1, "night/sa_ta_bi_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
+	DrawBustshotWithFiltering( 1, "sa_ta_bi_a1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
 
 //「何を気取ってるですのー！！＠　圭一さんがもたもたしてるからぁあぁあ！！！＠
 	PlaySE(3, "s19/04/990400110", 256, 64);
@@ -2706,7 +2705,7 @@
 
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 3, "night/ri_ta_de_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
+	DrawBustshotWithFiltering( 3, "ri_ta_de_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
 
 //「…おしおきしますです。＠
 	PlaySE(3, "s19/05/990500056", 256, 64);
@@ -2731,7 +2730,7 @@
 
 	DisableWindow();
 	DrawSceneWithMask( "black", "down", 0, 0, 300 );
-	DrawBustshotWithFiltering( 3, "night/me_ta_wa_a2", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
+	DrawBustshotWithFiltering( 3, "me_ta_wa_a2", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 1300, TRUE );
 
 //「じゃあ生き残ったで賞は、竜宮レナと園崎魅音。いぇ～い！＠
 	PlaySE(3, "s19/03/990300254", 256, 64);
@@ -2742,7 +2741,7 @@
 
 
 	DisableWindow();
-	DrawBustshotWithFiltering( 1, "night/re_ta_bi_b1", "right", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
+	DrawBustshotWithFiltering( 1, "re_ta_bi_b1", "right", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
 
 //「あれ…？　魅ぃちゃん、ゾンビじゃなかったの…？＠
 	PlaySE(3, "s19/02/990200267", 256, 64);
@@ -2767,7 +2766,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	DrawBustshot( 3, "night/me_ta_to_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
+	DrawBustshot( 3, "me_ta_to_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 400, TRUE );
 
 //「はいはい＠急いで着替えないとね～＠次の授業に遅れんなよ～！＠
 	PlaySE(3, "s19/03/990300256", 256, 64);

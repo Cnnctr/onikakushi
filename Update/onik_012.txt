@@ -3687,7 +3687,6 @@ void main()
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
-	DrawScene( "35_b", 200 );
 
 
 //　扉の隙間から片目だけを覗かせて、再び魅音の鷹の目が俺を貫いた￥
