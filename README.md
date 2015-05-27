@@ -11,7 +11,7 @@ Download an installation:
 Download the master file here: https://github.com/Cnnctr/onikakushi/archive/master.zip
 
 There are two versions. No_stops will continue playing voice even after you click out the line. Stops will cut the voice.
-Decide on your preffered version, open it, you see two folders. Install both folders into streamingassets folder.
+Decide on your preferred version, open it, you see two folders. Install both folders into streamingassets folder.
 If prompted to overwrite current files, overwrite them.
 You backed up your files, right?
 
