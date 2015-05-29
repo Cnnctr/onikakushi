@@ -953,6 +953,7 @@ void main()
 	DrawBustshot( 3, "me_se_to_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「たくましくなっちゃった上にヒゲまで生やしちゃってさぁ～☆＠
+	PlaySE( 4, "s19/03/990300008", 256, 64 );
 	OutputLine(NULL, "「たくましくなっちゃった上にヒゲまで生やしちゃってさぁ〜☆」",
 		   NULL, "\"Not only is he bigger, but he has a little moustache now~☆\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
