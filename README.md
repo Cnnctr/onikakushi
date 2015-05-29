@@ -22,10 +22,13 @@ Place s01, s19, s20 folders into streamingassets/SE folder
 Troubleshooting:
 -----------------------------------------------------------------------------------------
 > "There's a missing voice in this scene!"
+
 Check the Known Issues section of this readme.
 If it's not in there, report it. 
 
+
 > "Why aren't the voices playing?"
+
 If you have 1.00 version of the game, you need to move files from Update folder to Scripts folder. This version didn't support Update folder yet.
 Make sure the FULL voice pack is installed.
 Make sure your directory is as follows:
@@ -34,7 +37,9 @@ Make sure your directory is as follows:
 
 ..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\Update
 
+
 > "It's still not playing."
+
 Go to ..common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledScripts
 
 Make a copy of the Complied Scripts folder.
