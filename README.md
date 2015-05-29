@@ -5,7 +5,7 @@ For Higurashi No Naku Koro Ni - Chapter 1 Onikakushi, Steam Version
 This is a modified version of the combined patch for those who wish to play only with added voices and without altered graphics.
 Combined patch can be found here: https://github.com/higurashi-mod/onikakushi
 
-Download an installation:
+Download and installation:
 -----------------------------------------------------------------------------------------
 
 Download the master file here: https://github.com/Cnnctr/onikakushi/archive/master.zip
