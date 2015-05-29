@@ -32,10 +32,10 @@ If you have 1.00 version of the game, you need to move files from Update folder 
 Make sure the FULL voice pack is installed.
 Make sure your directory is as follows:
 
-..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\SE\
+<b> ..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\SE\ </b>
    - The SE folder should have s01, s19, and s20 folders from the FULL voice pack
 
-..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\Update
+<b> ..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\Update </b>
    - The Update folder should have script files in it such as onik_000.txt, at least 39 onik files, tips files, and an omake txt file
 
 > "It's still not playing."
