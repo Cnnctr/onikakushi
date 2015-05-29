@@ -36,9 +36,9 @@
 	ClearMessage();
 
 //「最近のカップめんは凝ってて種類も多いんだよ＠どれも一通りは食ってみたいし。＠
-	PlaySE(3, "s20/01/440100041", 256, 64);
+	PlaySE( 4, "s20/01/440100041", 300, 64 );
 	OutputLine(NULL, "「最近のカップめんは凝ってて種類も多いんだよ。",
-		   NULL, "\"Cup noodles have gotten so elaborate recently, and there are a bunch of different types.", Line_WaitForInput);
+		   NULL, "\"Cup noodles have gotten so elaborate recently, and there are a bunch of different types.", Line_ContinueAfterTyping);
 	OutputLine(NULL, "どれも一通りは食ってみたいし。」",
 		   NULL, " I want to try each of them at least once.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -79,9 +79,9 @@
 	ClearMessage();
 
 //「それじゃ１種類しか食えないよ＠　飽きちゃうって！＠
-	PlaySE(3, "s20/01/440100042", 256, 64);
+	PlaySE( 4, "s20/01/440100042", 300, 64 );
 	OutputLine(NULL, "「それじゃ１種類しか食えないよ！",
-		   NULL, "\"Then I'd only get to eat one kind!", Line_WaitForInput);
+		   NULL, "\"Then I'd only get to eat one kind!", Line_ContinueAfterTyping);
 	OutputLine(NULL, "　飽きちゃうって！」",
 		   NULL, " I'd get bored with it!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -133,9 +133,9 @@
 	ClearMessage();
 
 //「豚骨はうまいんだよ＠　大盛りだけど大味ってわけじゃないし...！！＠
-	PlaySE(3, "s20/01/440100043", 256, 64);
+	PlaySE( 4, "s20/01/440100043", 300, 64 );
 	OutputLine(NULL, "「豚骨はうまいんだよ！",
-		   NULL, "\"Pork-bone is good!", Line_WaitForInput);
+		   NULL, "\"Pork-bone is good!", Line_ContinueAfterTyping);
 	OutputLine(NULL, "　大盛りだけど大味ってわけじゃないし…！！」",
 		   NULL, " I don't want a big bowl of tasteless stuff...!!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
@@ -149,7 +149,7 @@
 
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
-	PlaySE( 4, "wa_023", 128, 64 );
+	PlaySE( 3, "wa_023", 128, 64 );
 	SetValidityOfWindowDisablingWhenGraphicsControl( FALSE );
 	DrawFilm( 2, 153, 153, 153, 255, 0, 3000, TRUE );
 ////print 42
@@ -240,7 +240,7 @@
 
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );
-	PlaySE( 4, "wa_025", 128, 64 );
+	PlaySE( 3, "wa_025", 128, 64 );
 
 //　その時、ぞくりとして時間の再生を止めた￥
 	OutputLine(NULL, "　その時、ぞくりとして時間の再生を止めた。",
@@ -585,7 +585,7 @@
 		   NULL, " Follow the rules!!!", Line_Normal);
 	ClearMessage();
 
-	PlaySE( 4, "wa_026", 128, 64 );
+	PlaySE( 3, "wa_026", 128, 64 );
 
 //　ぺた＠
 	OutputLine(NULL, "　ぺた。",
@@ -718,7 +718,7 @@
 	ClearMessage();
 
 //「.........え、..................え？＠
-	PlaySE(3, "s20/01/440100044", 256, 64);
+	PlaySE( 4, "s20/01/440100044", 300, 64 );
 	OutputLine(NULL, "「………え、………………え？」",
 		   NULL, "\"...Wha... what?\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -756,7 +756,7 @@
 
 
 
-	PlaySE( 4, "wa_025", 128, 64 );
+	PlaySE( 3, "wa_025", 128, 64 );
 
 //locate 0,5
 

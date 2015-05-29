@@ -240,14 +240,13 @@
 	ClearMessage();
 
 //「圭一、そろそろ着くぞ＠起きなさい。＠
-	PlaySE(3, "s19/00/992600001", 256, 64);
+	PlaySE( 4, "s19/00/992600001", 300, 64 );
 	OutputLine(NULL, "「圭一、そろそろ着くぞ。",
 		   NULL, "\"Keiichi, we're almost there.", Line_WaitForInput);
-	PlaySE(3, "s19/00/992600002", 256, 64);
+	PlaySE( 4, "s19/00/992600002", 300, 64 );
 	OutputLine(NULL, "起きなさい。」",
 		   NULL, " Wake up.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-
 
 //　親父に小突かれようやくまどろみから目を覚ました＠
 	OutputLine(NULL, "　親父に小突かれようやくまどろみから目を覚ました。",
