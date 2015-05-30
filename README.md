@@ -43,14 +43,12 @@ Make sure your directory is as follows:
 - Make a copy of the <b>Complied Scripts</b> folder.
 - Delete <b>onik_000.mg -> onik_15_03.mg</b> and <b>onik_op.mg</b>
 - This will force the game to read the new files.
-
-- If this stops the game from working properly, go to<b> ..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\ </b>
-- And open <b>output_log.txt</b> ; This will tell you which script txt file has the syntax error.
+- If this stops the game from working properly, go to <b>..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\</b> and open <b>output_log.txt</b> ; This will tell you which script txt file has the syntax error.
 
 Script Changes:
 -----------------------------------------------------------------------------------------
 - Day 1:
-  - Scene where they talk about Keiichi's dick was rewritten to match the console version because there were no voices for it.
+  - That first scene between Keiichi and Mion was rewritten to match the console version because there were no voices for it.
 
 Known Issues:
 -----------------------------------------------------------------------------------------
