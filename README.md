@@ -39,7 +39,7 @@ Make sure your directory is as follows:
 
 > "It's still not playing."
 
-Go to ..common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledScripts
+Go to <b>..common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledScripts </b>
 
 - Go to <b>..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledScripts </b> 
 - Make a copy of the <b>Complied Scripts</b> folder.
@@ -63,7 +63,7 @@ Known Issues:
     - Unavoidable, since the voices aren't their own thing.
 
 - Tips: 
-  - Missing voices for Keichii's Mom in Tip 20 (At the Seventh Mart)
+  - Missing voices for Keiichi's Mom in Tip 20 (At the Seventh Mart)
   - Missing voices for lines 1472 to 1524 in Omake_1 (All-cast wrap up scene)
 
 Credits:
