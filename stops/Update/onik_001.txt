@@ -906,99 +906,142 @@ void main()
 	DrawBustshot( 3, "me_se_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「あっはは＠　そうだっけか＠前に会った時はあんなに可愛かったのになぁ！＠
-	PlaySE( 4, "s19/03/990300004", 300, 64 );
+	PlaySE( 4, "s19/03/990300004", 300, 64);
 	OutputLine(NULL, "「あっはは！",
 		   NULL, "\"Ah haha!", Line_WaitForInput);
-	PlaySE( 4, "s19/03/990300005", 300, 64 );
+	PlaySE( 4, "s19/03/990300005", 300, 64);
 	OutputLine(NULL, "　そうだっけか。",
 		   NULL, " You don't say.", Line_WaitForInput);
-	PlaySE( 4, "s19/03/990300006", 300, 64 );
-	OutputLine(NULL, "前に会った時はあんなに可愛かったのになぁ！」",
-		   NULL, " You were so much cuter back then!\"", Line_WaitForInput);
+	PlaySE( 4, "s19/03/990300006", 300, 64);
+	OutputLine(NULL, " 前に会った時はあんなに可愛かったのになぁ！」",
+		   NULL, " You were such a cute little tyke the last time I saw you!\"", Line_WaitForInput);
 	StopSE(4);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+
+//魅音の手が地上1mくらいのところで揺れる。
+	OutputLine(NULL, "魅音の手が地上1mくらいのところで揺れる。",
+			NULL, "Mion then lowered her hand to about 1 meter above the ground.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
+//「俺は先月引っ越してきたばかりなんだが……？」
+	PlaySE( 4, "s19/01/hr_kei00230", 300, 64);
+	OutputLine(NULL, "「俺は先月引っ越してきたばかりなんだが……？」",
+		   NULL, "\"But you've only known me for a month...\"", Line_Normal);
+	StopSE(4);
+	ClearMessage();
+		   
+	DisableWindow();
+	DrawBustshot( 3, "me_se_to_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );	
+	
+//「こんなに立派に育ってくれて……おじさん苦労した甲斐があったよ」
+	PlaySE( 4, "s19/03/990300007", 300, 64);
+	OutputLine(NULL, "「こんなに立派に育ってくれて…",
+		   NULL, "\"You've grown up so magnificently...", Line_ContinueAfterTyping);
+	OutputLine(NULL, "…おじさん苦労した甲斐があったよ」",
+		   NULL, " All the trouble this old man had to go through was worth it.\"", Line_WaitForInput);
+	StopSE(4);		   
+	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
-//　魅音の目線が俺の胸元からつーっと下がって行き、!d400俺の下腹部に集まり始める＠
-	OutputLine(NULL, "　魅音の目線が俺の胸元からつーっと下がって行き、",
-		   NULL, "Mion's gaze started at my chest then dropped straight down,", Line_ContinueAfterTyping);
-
-	Wait( 400 );
-
-	OutputLine(NULL, "俺の下腹部に集まり始める。",
-		   NULL, " focusing on the point between my legs.", Line_WaitForInput);
+//ご丁寧にハンカチまで取り出して泣きまねをする。	
+	OutputLine(NULL, "ご丁寧にハンカチまで取り出して泣きまねをする。",
+		   NULL, "She gently took out a handkerchief and pretended to weep into it.", Line_WaitForInput); 
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
+//朝から土曜8時のノリかよ。	
+	OutputLine(NULL, "朝から土曜8時のノリかよ。",
+		   NULL, "Just what is she trying to pull off at 8 o'clock in the morning...?", Line_Normal);
+	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);	
+	
+	ClearMessage();		
+	
+//「誰が苦労したんだ誰が」
+	PlaySE( 4, "s19/01/hr_kei00240", 300, 64);	
+	OutputLine(NULL, "「誰が苦労したんだ誰が」",
+		   NULL, "\"Wasn't it me who went through the trouble there?!\"", Line_WaitForInput);  
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);	
+	
+//「たくましくなっちゃった上に、ヒゲまで生やしちゃってさぁ～」	
+	PlaySE( 4, "s19/03/990300008", 300, 64);
+	OutputLine(NULL, "「たくましくなっちゃった上に、ヒゲまで生やしちゃってさぁ～」",
+		   NULL, "\"You've grown up so much, you even have a beard~!\"", Line_WaitForInput);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);		
 
-//　...前に会った時にあんなに可愛かったってのは俺の股間のことかよ￥
-	OutputLine(NULL, "　…前に会った時にあんなに可愛かったってのは俺の股間のことかよ。",
-		   NULL, "...So she was saying it was my crotch that was cuter back then.", Line_Normal);
-	ClearMessage();
+//「まだヒゲなんか生えるかっ！」	
+	PlaySE( 4, "s19/01/hr_kei00250", 300, 64);
+	OutputLine(NULL, "「まだヒゲなんか生えるかっ！」",
+		   NULL, "\"My beard hasn't started growing yet!\"", Line_WaitForInput);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);		
+	
+//「いや、生えてるね。先週ヒゲ剃り買ったでしょ？」	
+	PlaySE( 4, "s19/03/990300009", 300, 64);
+	OutputLine(NULL, "「いや、生えてるね。先週ヒゲ剃り買ったでしょ？」",
+		   NULL, "\"No, it's already growing. You got yourself a razor for it last week, right?\"", Line_WaitForInput);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);	
+	
+//「いや、生えてるね。先週ヒゲ剃り買ったでしょ？」	
+	PlaySE( 4, "s19/01/hr_kei00260", 300, 64);
+	OutputLine(NULL, "「あれは、親父の……って、何でお前が知ってる？」",
+		   NULL, "\"That was my father's... Wait, how do you know that?\"", Line_Normal);
+	StopSE(4);
+	
+	ClearMessage();		   
+		   
+//その問いに、魅音はちっちっち、と人差し指を目の前で振った。 	
+	OutputLine(NULL, "その問いに、魅音はちっちっち、と人差し指を目の前で振った。",
+		   NULL, "Mion sneered at the question, and then wagged her index finger right in my face.", Line_WaitForInput); 
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);		
+	OutputLine(NULL, "……何の真似だ。",
+		   NULL, "...Just what is she playing at?", Line_Normal);
+	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);		
 
-
-//　ちなみに断っておくが、見せた試しはないぞ。......念のため￥
-	OutputLine(NULL, "　ちなみに断っておくが、見せた試しはないぞ。……念のため。",
-		   NULL, "Before you ask, just to be clear, I've never actually tried to show it to her.", Line_Normal);
-	ClearMessage();
-
-//「そうだよ立派になったぞ＠驚くぞ。＠
-	OutputLine(NULL, "「そうだよ立派になったぞ。",
-		   NULL, "\"I've grown quite splendidly.", Line_WaitForInput);
-	OutputLine(NULL, "驚くぞ。」",
-		   NULL, " You'd be surprised.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-
+	ClearMessage();	
+	DisableWindow();
+	DrawBustshot( 3, "me_se_fu_a2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );	
+	
+//「あっはっはっは、魅音さんの情報収集能力を舐めちゃあいけないよ？圭ちゃんの昨日の夕食からレナのスリーサイズまで、すべておじさんはお見通しさ」	
+	PlaySE( 4, "s19/03/990300010", 300, 64);
+	OutputLine(NULL, "「あっはっはっは、魅音さんの情報収集能力を舐めちゃあいけないよ？",
+		   NULL, "\"Hahaha, NEVER underestimate Mion-san's intelligence gathering skills!", Line_WaitForInput);	
+	
+	PlaySE( 4, "s19/03/990300011", 300, 64);	
+	OutputLine(NULL, " 圭ちゃんの昨日の夕食からレナのスリーサイズまで、すべておじさんはお見通しさ」",
+		   NULL, " From your last meal to Rena's measurements, this old man knows it all.\"", Line_WaitForInput);
+	StopSE(4);
+	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);		
+	
+	DisableWindow();
+	DrawBustshot( 3, "me_se_to_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );	
+	
+//そう言って、不敵に笑う魅音の肩を俺はポンと叩く	
+	OutputLine(NULL, "そう言って、不敵に笑う魅音の肩を俺はポンと叩く",
+		   NULL, "Picking my interest, I placed my hand on her shoulder while she was still smirking.", Line_WaitForInput); 
+	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);	
+	
+//「……ちなみにレナのスリーサイズは？」	
+	PlaySE( 4, "s19/01/hr_kei00270", 300, 64);	
+	OutputLine(NULL, "「……ちなみにレナのスリーサイズは？」",
+		   NULL, "\"...I'll bite, what are Rena's measurements?\"", Line_WaitForInput);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);	
+	StopSE(4);
 
 	DisableWindow();
-	DrawBustshot( 3, "me_se_to_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
-
-//「たくましくなっちゃった上にヒゲまで生やしちゃってさぁ～☆＠
-	PlaySE( 4, "s19/03/990300008", 256, 64 );
-	OutputLine(NULL, "「たくましくなっちゃった上にヒゲまで生やしちゃってさぁ〜☆」",
-		   NULL, "\"Not only is he bigger, but he has a little moustache now~☆\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-
-
-//「毎朝、元気全開で大変なんだ＠今度見せてやるから挨拶してみろ。＠
-	OutputLine(NULL, "「毎朝、元気全開で大変なんだ。",
-		   NULL, "\"Being so *engorged* with energy every morning is quite a problem, though.", Line_WaitForInput);
-	OutputLine(NULL, "今度見せてやるから挨拶してみろ。」",
-		   NULL, " I'll introduce you next time, so be sure to greet him properly.\"", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-
-
-//「今度なんて言わないで今がいいなぁ＠朝の新鮮な空気を吸わせてあげたらぁ？￥
-	OutputLine(NULL, "「今度なんて言わないで今がいいなぁ。",
-		   NULL, "\"Don't say 'next time.' Right now is just fine.", Line_WaitForInput);
-	OutputLine(NULL, "朝の新鮮な空気を吸わせてあげたらぁ？」",
-		   NULL, " How about letting the little guy get a breath of fresh morning air?\"", Line_Normal);
-	ClearMessage();
-
-
-//　朝の新鮮な空気をここまで台無しにする下品トークは聞いたことないぞ...＠
-	OutputLine(NULL, "　朝の新鮮な空気をここまで台無しにする下品トークは聞いたことないぞ…。",
-		   NULL, "I don't think I've ever heard talk so dirty you could smell it fouling up the morning air before.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-
-
-//　魅音ってヤツはたまにノリにおっさんぽいところがあるのだ＠
-	OutputLine(NULL, "　魅音ってヤツはたまにノリにおっさんぽいところがあるのだ。",
-		   NULL, "Mion sure does act like an old man sometimes.", Line_WaitForInput);
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
-
-
-//「よしわかった＠大公開だ＠後悔するなよ...ッ？！？！￥
-	OutputLine(NULL, "「よしわかった。",
-		   NULL, "\"Gotcha.", Line_WaitForInput);
-	OutputLine(NULL, "大公開だ。",
-		   NULL, " Time for the big reveal.", Line_WaitForInput);
-	OutputLine(NULL, "後悔するなよ…ッ？！？！」",
-		   NULL, " Hope you don't regret it...!!\"", Line_Normal);
-	ClearMessage();
-
-//　俺がジッパーに手をかけたところで、レナが慌てふためきながらまくし立てた＠
-	OutputLine(NULL, "　俺がジッパーに手をかけたところで、レナが慌てふためきながらまくし立てた。",
-		   NULL, "As my hand reached for my fly, Rena began to ramble in a near panic.", Line_WaitForInput);
+	DrawBustshot( 3, "me_se_fu_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
+	
+//「……ちなみにレナのスリーサイズは？」	
+	PlaySE( 4, "s19/03/990300012", 300, 64);	
+	OutputLine(NULL, "「やっぱ気になるぅ？",
+		   NULL, "\"Just as I thought, you really want to knoooow?", Line_WaitForInput);
+			
+//「……ちなみにレナのスリーサイズは？」	
+	PlaySE( 4, "s19/03/990300013", 300, 64);	
+	OutputLine(NULL, " ちなみに高いよ～、いくら出す？」",
+		   NULL, " By the way, it's expensive~. How much would you pay?\"", Line_WaitForInput);
+	StopSE(4);
+	ClearMessage();			
+	
+//よからぬ交渉に感づいたのか、レナが慌てふためきながらまくし立てた。＠
+	OutputLine(NULL, "よからぬ交渉に感づいたのか、レナが慌てふためきながらまくし立てた。",
+		  NULL, "Catching on to our awful discussion, Rena became flustered and began to ramble in a near panic.", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
