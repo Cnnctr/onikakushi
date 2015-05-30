@@ -39,8 +39,6 @@ Make sure your directory is as follows:
 
 > "It's still not playing."
 
-Go to <b>..common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledScripts </b>
-
 - Go to <b>..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\StreamingAssets\CompiledScripts </b> 
 - Make a copy of the <b>Complied Scripts</b> folder.
 - Delete <b>onik_000.mg -> onik_15_03.mg</b> and <b>onik_op.mg</b>
