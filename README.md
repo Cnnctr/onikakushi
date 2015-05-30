@@ -43,7 +43,7 @@ Make sure your directory is as follows:
 - Make a copy of the <b>Complied Scripts</b> folder.
 - Delete <b>onik_000.mg -> onik_15_03.mg</b> and <b>onik_op.mg</b>
 - This will force the game to read the new files.
-- If this stops the game from working properly, go to <b>..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\</b> and open <b>output_log.txt</b> ; This will tell you which script txt file has the syntax error.
+- If this stops the game from working properly, go to <b>..SteamApps\common\Higurashi When They Cry\HigurashiEp01_Data\ </b> and open <b>output_log.txt</b>, this will tell you which script txt file has the syntax error.
 
 Script Changes:
 -----------------------------------------------------------------------------------------
