@@ -1,22 +1,22 @@
 PS3 Voice Only Patch
 -----------------------------------------------------------------------------------------
-For Higurashi No Naku Koro Ni - Chapter 1 Onikakushi, Steam Version
+For Higurashi no Naku Koro ni - Chapter 1 Onikakushi, Steam Version
 
 This is a modified version of the combined patch for those who wish to play only with the added voices and without altered graphics.
 Combined patch can be found here: https://github.com/higurashi-mod/onikakushi
 
-Download and installation:
+Download and Installation:
 -----------------------------------------------------------------------------------------
 Download the master file here: https://github.com/Cnnctr/onikakushi/archive/master.zip
 
-There are two versions. No_stops will continue playing voice even after you click out the line. Stops will cut the voice.
-Decide on your preferred version, open it, you see two folders. Install both folders into StreamingAssets folder.
+There are two versions. <b>No_stops</b> will continue playing voice even after you click out the line. <b>Stops</b> will cut the voice.
+Decide on your preferred version, open it, you see two folders. Install both folders into <b>StreamingAssets</b> folder.
 If prompted to overwrite current files, overwrite them.
 You backed up your files, right?
 
-Grab HigurashiPS3-Voices01.zip: https://mega.co.nz/#F!SRt1DTKI!0vSWMtBLaa2VO0bDgfzb7A
+Grab <b>HigurashiPS3-Voices01.zip</b>: https://mega.co.nz/#F!SRt1DTKI!0vSWMtBLaa2VO0bDgfzb7A
 
-Place s01, s19, s20 folders into streamingassets/SE folder
+Place <b>s01</b>, <b>s19</b>, <b>s20</b> folders into <b>StreamingAssets/SE</b> folder
 
 Troubleshooting:
 -----------------------------------------------------------------------------------------
@@ -47,8 +47,14 @@ Make sure your directory is as follows:
 
 Script Changes:
 -----------------------------------------------------------------------------------------
+- General:
+  - Some lines were split or joined so they match the voice files.
+
 - Day 1:
   - That first scene between Keiichi and Mion was rewritten to match the console version because there were no voices for it.
+
+- Day 9:
+  - The part where Keiichi says loli was changed from "ロリ" to "ちびっ子" in Japanese to match the voice.
 
 Known Issues:
 -----------------------------------------------------------------------------------------
@@ -58,7 +64,7 @@ Known Issues:
   - Sound volume mutes sounds and voices.
     - Unavoidable, since the voices aren't their own thing.
 
-- Tips: 
+- Tips:
   - Missing voices for Keiichi's Mom in Tip 20 (At the Seventh Mart)
   - Missing voices for lines 1472 to 1524 in Omake_1 (All-cast wrap up scene)
 
