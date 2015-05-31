@@ -16,7 +16,7 @@ You backed up your files, right?
 
 Grab <b>HigurashiPS3-Voices01.zip</b>: https://mega.co.nz/#F!SRt1DTKI!0vSWMtBLaa2VO0bDgfzb7A
 
-Place <b>s01</b>, <b>s19</b>, <b>s20</b> folders into <b>StreamingAssets/SE</b> folder
+Place <b>s01</b>, <b>s19</b>, <b>s20</b> folders into <b>StreamingAssets\SE</b> folder
 
 Troubleshooting:
 -----------------------------------------------------------------------------------------

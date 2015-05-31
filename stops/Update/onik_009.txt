@@ -2122,8 +2122,10 @@
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 
+	PlaySE( 4, "s19/05/990500080", 300, 64 );
 	OutputLine(NULL, "「鳴いた」",
 		   NULL, " \"...Mew.\"", Line_Normal);
+	StopSE(4);
 	ClearMessage();
 
 	PlaySE( 3, "wa_016", 128, 64 );
