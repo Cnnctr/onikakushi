@@ -1695,7 +1695,7 @@
 	StopSE(4);
 	PlaySE( 4, "s01/02/120200497", 300, 64 );
 	OutputLine(NULL, "薄々は気付いてたくせにぃ☆」",
-		   NULL, " You should have realized it by now.?\"", Line_WaitForInput);
+		   NULL, " You should have realized it by now.\"", Line_WaitForInput);
 	StopSE(4);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 

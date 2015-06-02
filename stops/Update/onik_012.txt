@@ -3191,7 +3191,7 @@
 	StopSE(4);
 	PlaySE( 4, "s01/03/120300093", 300, 64 );
 	OutputLine(NULL, "梨花ちゃんは病気でかわいそかわいそです、ってさ！」",
-		   NULL, " Rika-chan said, 'how unfortunate he's sick!'", Line_WaitForInput);
+		   NULL, " Rika-chan said, 'how unfortunate he's sick!'\"", Line_WaitForInput);
 	StopSE(4);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 

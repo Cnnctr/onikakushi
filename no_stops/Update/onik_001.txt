@@ -979,7 +979,7 @@ void main()
 
 	DisableWindow();
 	DrawBustshot( 3, "me_se_to_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );	
-	
+
 	PlaySE( 4, "s19/03/990300011", 300, 64);	
 	OutputLine(NULL, "　圭ちゃんの昨日の夕食からレナのスリーサイズまで、すべておじさんはお見通しさ」",
 		   NULL, " From your last meal to Rena's measurements, this old man knows it all.\"", Line_WaitForInput);

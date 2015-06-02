@@ -361,7 +361,7 @@
 //「梨花さん、そーゆうのは大人の事情って言うんですよ。んっふっふっふ！￥
 	PlaySE( 4, "s20/11/440700337", 300, 64 );
 	OutputLine(NULL, "「梨花さん、そーゆうのは大人の事情って言うんですよ。んっふっふっふ！」",
-		   NULL, "\"Rika-san, that's what we refer to as a 'personal problem,' hehehehe!", Line_Normal);
+		   NULL, "\"Rika-san, that's what we refer to as a 'personal problem,' hehehehe!\"", Line_Normal);
 	StopSE(4);
 	PlaySE( 4, "s20/11/440700338", 300, 64 );
 	ClearMessage();
@@ -1634,7 +1634,7 @@
 
 	PlaySE( 4, "s20/02/440200154", 300, 64 );
 	OutputLine(NULL, "「そっか、梨花ちゃんって巫女さんをやったんだよね…！",
-		   NULL, "\"That right, Rika-chan is a shrine maiden...!", Line_WaitForInput);
+		   NULL, "\"That's right, Rika-chan is a shrine maiden...!", Line_WaitForInput);
 	StopSE(4);
 	PlaySE( 4, "s20/02/440200155", 300, 64 );
 	OutputLine(NULL, "　うん。いい意見。」",

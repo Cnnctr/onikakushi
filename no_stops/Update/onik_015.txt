@@ -5916,7 +5916,7 @@
 
 //　村人が歩いていることに不審はない。だが、気になった￥
 	OutputLine(NULL, "　村人が歩いていることに不審はない。だが、気になった。",
-		   NULL, "Villagers walking around weren't suspicious in of themselves. But it bothered me.", Line_Normal);
+		   NULL, "Villagers walking around weren't suspicious in and of themselves. But it bothered me.", Line_Normal);
 	ClearMessage();
 
 //　服装は２人ともラフ＠手ぶらで、いかにも散歩のような感じ......＠
@@ -6484,7 +6484,7 @@
 
 //　絶対絶命...という複雑な単語は、もう思いつかなかった........................￥
 	OutputLine(NULL, "　絶対絶命…という複雑な単語は、もう思いつかなかった……………………。",
-		   NULL, "'Dire straits,' I couldn't even come up the phrase that adaquately described my situation...", Line_Normal);
+		   NULL, "'Dire straits,' I couldn't even come up the phrase that adequately described my situation...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene( "black", 3000 );

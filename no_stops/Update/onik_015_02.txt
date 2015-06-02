@@ -1585,7 +1585,7 @@
 		   NULL, "\"...You're playing dumb, Keiichi-kun.", Line_WaitForInput);
 	PlaySE( 4, "s01/02/120200497", 300, 64 );
 	OutputLine(NULL, "薄々は気付いてたくせにぃ☆」",
-		   NULL, " You should have realized it by now.?\"", Line_WaitForInput);
+		   NULL, " You should have realized it by now.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 

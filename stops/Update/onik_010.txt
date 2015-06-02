@@ -4181,7 +4181,7 @@
 //「俺の今の持ち点って…確か０点だろ…＠…ビリ確定じゃないのかよ？＠
 	PlaySE( 4, "s01/01/120100144", 300, 64 );
 	OutputLine(NULL, "「俺の今の持ち点って…確か０点だろ…。",
-		   NULL, "\"If I remember right... I'm had zero points...", Line_WaitForInput);
+		   NULL, "\"If I remember right... I had zero points...", Line_WaitForInput);
 	StopSE(4);
 	PlaySE( 4, "s01/01/120100145", 300, 64 );
 	OutputLine(NULL, "…ビリ確定じゃないのかよ？」",
