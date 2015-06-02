@@ -3979,6 +3979,7 @@
 	PlaySE( 4, "s19/03/500300747", 300, 64 );
 	OutputLine(NULL, "「１番は避けたかったんだけど……ま、ハンデってことにしとくかな。おっちゃん！！銃ッ！！」",
 		   NULL, "\"I didn't want to end up first... Ah well, I'll just think of it as a handicap. Gramps!! Gun!!\"", Line_WaitForInput);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 	StopSE(4);
 	PlaySE( 4, "s19/00/yataiz50006", 300, 64 );
 	OutputLine(NULL, "「そらよッ！！」",
@@ -4430,7 +4431,7 @@
 	StopSE(4);
 	PlaySE( 4, "s19/02/500200867", 300, 64 );
 	OutputLine(NULL, "　……はぅ〜、くまさんかぁいいよぅ！！」",
-		   NULL, " ...Hao~ Bear-san sho kyute!!\"", Line_WaitForInput);
+		   NULL, " ...Hao~ Mr. Bear sho kyute!!\"", Line_WaitForInput);
 	StopSE(4);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
@@ -4717,7 +4718,7 @@
 //「……はぅ………くまさん……お持ち帰り…………はぅ……。＠
 	PlaySE( 4, "s19/02/500200869", 300, 64 );
 	OutputLine(NULL, "「……はぅ………くまさん……お持ち帰り…………はぅ……。」",
-		   NULL, "\"...Hao... Bear-san... take him home... hao...\"", Line_WaitForInput);
+		   NULL, "\"...Hao... Mr. Bear... take him home... hao...\"", Line_WaitForInput);
 	StopSE(4);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
@@ -4796,7 +4797,7 @@
 //「……はぅ………欲しかったよぅ……くまさん………ぅぅ……。＠
 	PlaySE( 4, "s19/02/500200872", 300, 64 );
 	OutputLine(NULL, "「……はぅ………欲しかったよぅ……くまさん………ぅぅ……。」",
-		   NULL, "\"...Hao... I really wanted Mr Bear... Wah...\"", Line_WaitForInput);
+		   NULL, "\"...Hao... I really wanted Mr. Bear... Wah...\"", Line_WaitForInput);
 	StopSE(4);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
