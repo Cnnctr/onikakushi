@@ -3483,7 +3483,7 @@
 		   NULL, " In Kanto.", Line_WaitForInput);
 	PlaySE( 4, "s19/02/990200282", 300, 64 );
 	OutputLine(NULL, "ここほどじゃないけど、やっぱり田舎だったかな。」",
-		   NULL, " It wasn't as rural as it is out here, but it was still out in the countryside.", Line_WaitForInput);
+		   NULL, " It wasn't as rural as it is out here, but it was still out in the countryside.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
