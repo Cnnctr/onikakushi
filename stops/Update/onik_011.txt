@@ -2866,7 +2866,7 @@
 	PlaySE( 3, "wa_027", 128, 64 );
 
 //「嘘だッ！！！＠
-	PlaySE( 4, "s01/02/120200139", 300, 64 );
+	PlaySE( 4, "s01/02/120200139a", 300, 64 );
 	OutputLine(NULL, "「嘘だッ！！！」",
 		   NULL, "\"LIES!!!\"", Line_WaitForInput);
 	StopSE(4);
