@@ -49,12 +49,10 @@ Script Changes:
 -----------------------------------------------------------------------------------------
 - General:
   - Some lines were split or joined so they match the voice files.
+  - Voices sometimes have changed/missing words or different phrasing, so text was modified accordingly.
 
-- Day 1:
-  - That first scene between Keiichi and Mion was rewritten to match the console version because there were no voices for it.
-
-- Day 9:
-  - The part where Keiichi says loli was changed from "ロリ" to "ちびっ子" in Japanese to match the voice.
+- Major Changes:
+  - That first scene between Keiichi and Mion on day 1 was rewritten to match the console version because there were no voices for it.
 
 Known Issues:
 -----------------------------------------------------------------------------------------
