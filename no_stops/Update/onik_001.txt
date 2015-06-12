@@ -1007,7 +1007,7 @@ void main()
 //「……ちなみにレナのスリーサイズは？」	
 	PlaySE( 4, "s19/03/990300013", 300, 64);	
 	OutputLine(NULL, "　ちなみに高いよ～、いくら出す？」",
-		   NULL, " By the way, it's expensive~. How much would you pay?\"", Line_WaitForInput);
+		   NULL, " By the way, it's expensive~. How much would you pay?\"", Line_Normal);
 	ClearMessage();			
 	
 //よからぬ交渉に感づいたのか、レナが慌てふためきながらまくし立てた。＠
