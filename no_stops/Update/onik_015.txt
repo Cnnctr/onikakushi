@@ -2300,7 +2300,6 @@
 	DisableWindow();
 	DrawBustshot( 2, "re_se_hi_b1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //　光を失った死者の瞳＠
@@ -2334,7 +2333,7 @@
 	SetValidityOfInput( FALSE );
 	Wait( 2000 );
 	SetValidityOfInput( TRUE );
-	OutputLineAll(NULL, "", Line_WaitForInput);
+	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
 	DisableWindow();
@@ -2988,7 +2987,6 @@
 	SetSpeedOfMessage( TRUE, 0, );
 
 
-	PlaySE( 4, "s01/02/120200376", 300, 64 );
 	OutputLine(NULL, "あははははははははははははは。」",
 		   NULL, " Ahahahahahahahahahahahahaha.\"", Line_Normal);
 
@@ -3565,7 +3563,7 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "転校”",
-		   NULL, " transferred...", Line_Normal);
+		   NULL, " transferred...", Line_ContinueAfterTyping);
 	OutputLine(NULL, "したの。」",
 		   NULL, " out.\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
@@ -4192,7 +4190,6 @@
 	DrawBustshotWithFiltering( 5, "black", "down", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 1300, TRUE );
 	DrawBustshot( 2, "re_se_de_a1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
-	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
 //　ある日の放課後＠

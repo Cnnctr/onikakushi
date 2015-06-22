@@ -2135,7 +2135,7 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……幻？！",
-		   NULL, " was a  hallucination!?", Line_WaitForInput);
+		   NULL, " was a hallucination!?", Line_WaitForInput);
 	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);
 
 
@@ -2503,7 +2503,7 @@
 //「......し、死んじまったのか...＠　二人とも......。＠
 	PlaySE( 4, "s01/01/120100804", 300, 64 );
 	OutputLine(NULL, "「……し、死んじまったのか…？",
-		   NULL, "\"...Were they dead...?", Line_WaitForInput);
+		   NULL, "\"...Are they dead...?", Line_WaitForInput);
 	StopSE(4);
 	PlaySE( 4, "s01/01/120100805", 300, 64 );
 	OutputLine(NULL, "　二人とも……。」",
